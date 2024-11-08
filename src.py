@@ -295,10 +295,11 @@ async def main():
     application.add_error_handler(error)
 
     #Polling
+    # Polling
     print('Polling...')
-    await application.start_polling()
-    await application.run_polling(poll_interval=3)
-    await application.idle()
+    application.run_polling()
+    application.idle()
+    
 
 
 if __name__ == "__main__":
