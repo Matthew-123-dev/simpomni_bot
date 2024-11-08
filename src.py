@@ -9,11 +9,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-
-
-TOKEN: final= os.getenv(TOKEN)
-BOTUSERNAME: final= os.getenv(BOTUSERNAME)
-API_KEY: final=os.getenv(API_KEY)
+TOKEN: final= os.getenv('TOKEN')
+BOTUSERNAME: final= os.getenv('BOTUSERNAME')
+API_KEY: final= os.getenv('API_KEY')
 
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     ''' This is used to start the bot.'''
