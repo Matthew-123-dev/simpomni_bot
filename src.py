@@ -267,7 +267,7 @@ async def error(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 
-async def main():
+def main():
     print('Starting bot...') 
 
     application = Application.builder().token(TOKEN).build()
@@ -298,12 +298,10 @@ async def main():
     # Polling
     print('Polling...')
     application.run_polling()
-    application.idle()
     
 
 
 if __name__ == "__main__":
-    import asyncio
-    asyncio.run(main())
+    main()
 
 
