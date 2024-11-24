@@ -85,4 +85,4 @@ Bot: You have added the task: Buy groceries
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
-Hi, I'm Matthew, if you'd like to contact me you could send me an email at [Matthew](mailto:olagunjunifemi6@gmail.com)
+Hi, I'm Matthew, the creator of this bot. If you'd like to contact me you could send me an email at [Matthew](mailto:olagunjunifemi6@gmail.com)
