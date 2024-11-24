@@ -38,10 +38,11 @@
    pip install -r requirements.txt
    ```
 
-3. Replace placeholders in the code with your own API keys:
-   - **Telegram Bot Token**: Replace `TOKEN` with your bot's token from BotFather.
-   - **OpenWeatherMap API Key**: Replace `API_KEY` with your OpenWeatherMap API key.
-
+3. Create .env file in your directory and add variables in the file with your own API keys.
+   You can check the .env.example file for guidance on how to do this:
+   - **Telegram Bot Token**: Add `TOKEN` with your bot's token from BotFather.
+   - **OpenWeatherMap API Key**: Add `API_KEY` with your OpenWeatherMap API key.
+   - **Bot Username**: Add `BOTUSERNAME` with your bot username. 
 ## Usage
 
 1. **Run the bot**:
